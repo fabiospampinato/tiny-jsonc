@@ -2,7 +2,7 @@
   "name": "tiny-jsonc",
   "repository": "github:fabiospampinato/jsonc-simple-parser",
   "description": "An absurdly small JSONC parser.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
