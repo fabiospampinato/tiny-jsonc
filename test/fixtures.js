@@ -6,7 +6,9 @@ const Fixtures = {
     comment: '// asd',
     empty: '',
     prefix: 'invalid 123',
-    suffix: '123 invalid'
+    suffix: '123 invalid',
+    multiLineString: `{ "foo": "/*
+     */" }`
   },
   parse: {
     input: `

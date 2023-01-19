@@ -36,4 +36,12 @@ describe ( 'Tiny JSONC', it => {
 
   });
 
+  it ( 'throws on multi-line strings', t => {
+
+    const {multiLineString} = Fixtures.errors;
+
+    t.throws ( () => JSONC.parse ( multiLineString ), { instanceOf: SyntaxError, message: 'Unexpected token \n in JSON at position 12' } );
+
+  });
+
 });

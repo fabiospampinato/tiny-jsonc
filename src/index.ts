@@ -1,8 +1,8 @@
 
 /* HELPERS */
 
-const stringOrCommentRe = /("(?:\\?.)*?")|(\/\/.*)|(\/\*[^]*?\*\/)/g;
-const stringOrTrailingCommaRe = /("(?:\\?.)*?")|(,\s*)(?=]|})/g;
+const stringOrCommentRe = /("(?:\\?[^])*?")|(\/\/.*)|(\/\*[^]*?\*\/)/g;
+const stringOrTrailingCommaRe = /("(?:\\?[^])*?")|(,\s*)(?=]|})/g;
 
 /* MAIN */
 
