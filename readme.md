@@ -2,7 +2,7 @@
 
 An absurdly small JSONC parser.
 
-This library works simply by using regexs to strip out comments first and trailing commas second, in order to account for a trailing comma followed by a comment, and then just passing the output to `JSON.parse`.
+This library works simply by using regexes to strip out comments first and trailing commas second, in order to account for a trailing comma followed by a comment, and then just passing the output to `JSON.parse`.
 
 If you need additional APIs to manipulate JSONC, better error messages, or a full-blown parser, I'd recommend using [`json-simple-parser`](https://github.com/fabiospampinato/jsonc-simple-parser) instead.
 

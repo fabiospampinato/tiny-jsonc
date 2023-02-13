@@ -1,7 +1,6 @@
 
 /* IMPORT */
 
-import _ from 'lodash';
 import {describe} from 'fava';
 import JSONC from '../dist/index.js';
 import Fixtures from './fixtures.js';
