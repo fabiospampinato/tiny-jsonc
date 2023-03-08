@@ -19,7 +19,7 @@ const sampleWithoutComments = fs.readFileSync ( sampleWithoutCommentsPath, 'utf8
 
 /* MAIN */
 
-benchmark.defaultOptions = Object.assign ( benchmark.defaultOptions, {
+benchmark.config ({
   iterations: 100
 });
 
