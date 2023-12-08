@@ -1,6 +1,6 @@
 {
   "name": "tiny-jsonc",
-  "repository": "github:fabiospampinato/jsonc-simple-parser",
+  "repository": "github:fabiospampinato/tiny-jsonc",
   "description": "An absurdly small JSONC parser.",
   "version": "1.0.1",
   "type": "module",
