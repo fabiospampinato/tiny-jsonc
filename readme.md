@@ -9,7 +9,7 @@ If you need additional APIs to manipulate JSONC, better error messages, or a ful
 ## Install
 
 ```sh
-npm install --save tiny-jsonc
+npm install tiny-jsonc
 ```
 
 ## Usage
