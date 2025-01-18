@@ -2,6 +2,7 @@
   "name": "tiny-jsonc",
   "repository": "github:fabiospampinato/tiny-jsonc",
   "description": "An absurdly small JSONC parser.",
+  "license": "MIT",
   "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -28,9 +29,9 @@
   ],
   "devDependencies": {
     "benchloop": "^2.1.1",
-    "fava": "^0.2.1",
+    "fava": "^0.3.4",
     "jsonc-simple-parser": "^3.0.0",
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
